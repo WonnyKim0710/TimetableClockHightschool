@@ -37,16 +37,17 @@ class _TableAndClockState extends State<TableAndClock> {
   double _tb1rowHeight1 = 60.0;
   double _tb1colWidth1 = 70.0;
   double _tb1colWidth2 = 70.0;
-  double _tb1colWidth3 = 120.0;
-  double _tb1textSize = 18.0; // New variable for text size
-  double _clockNumberSize = 26.0; // New variable for clock number size
+  double _tb1colWidth3 = 160.0;
+  double _tb1textSize = 24.0; // New variable for text size
+  double _clockNumberSize = 32.0; // New variable for clock number size
   double _tb2rowHeight1 = 60.0;
-  double _tb2colWidth1 = 350.0;
-  double _tb2textSize = 18.0; // New variable for text size
+  double _tb2colWidth1 = 400.0;
+  double _tb2textSize = 24.0; // New variable for text size
   List<List<String>> rowData = [
     ["전자기기는 전원 반드시 끄고 제출하기"],
     ["본령 5분전에는 반드시 착석해 있기"],
-    ["볼펜 사용 금지 & OMR 카드는 컴싸만 사용"]
+    ["볼펜 사용 금지 & OMR 카드는 컴싸만 사용"],
+    ["학교번호: "]
   ];
 
   void _increasetb1RowHeight() {
