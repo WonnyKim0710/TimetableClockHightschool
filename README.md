@@ -2,6 +2,8 @@
 
 A new Flutter project.
 
+수능 시간표 및 현재 시간을 나타내는 flutter 코드입니다. 학교 전자칠판이 있다면 모의고사날 띄워놓기 좋을 듯 합니다.
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
